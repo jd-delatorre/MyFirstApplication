@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)myButton:(id)sender {
+    self.titleLabel.text = self.textField.text;
+    
+    [self.textField resignFirstResponder];  //makes keyboard go away.
+}
 @end

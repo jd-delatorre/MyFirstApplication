@@ -21,6 +21,7 @@
 		78DDE52519749CE9008163F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DDE50719749CE8008163F2 /* UIKit.framework */; };
 		78DDE52D19749CE9008163F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78DDE52B19749CE9008163F2 /* InfoPlist.strings */; };
 		78DDE52F19749CE9008163F2 /* MyFirstApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DDE52E19749CE9008163F2 /* MyFirstApplicationTests.m */; };
+		78E064C91975FCBB005E29D0 /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 78E064C81975FCBB005E29D0 /* images-2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		78DDE52A19749CE9008163F2 /* MyFirstApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		78DDE52C19749CE9008163F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78DDE52E19749CE9008163F2 /* MyFirstApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstApplicationTests.m; sourceTree = "<group>"; };
+		78E064C81975FCBB005E29D0 /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		78DDE50A19749CE9008163F2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				78E064C81975FCBB005E29D0 /* images-2.jpeg */,
 				78DDE50B19749CE9008163F2 /* MyFirstApplication-Info.plist */,
 				78DDE50C19749CE9008163F2 /* InfoPlist.strings */,
 				78DDE50F19749CE9008163F2 /* main.m */,
@@ -230,6 +233,7 @@
 			files = (
 				78DDE51C19749CE9008163F2 /* Images.xcassets in Resources */,
 				78DDE50E19749CE9008163F2 /* InfoPlist.strings in Resources */,
+				78E064C91975FCBB005E29D0 /* images-2.jpeg in Resources */,
 				78DDE51719749CE9008163F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +460,7 @@
 				78DDE53419749CE9008163F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78DDE53519749CE9008163F2 /* Build configuration list for PBXNativeTarget "MyFirstApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +469,7 @@
 				78DDE53719749CE9008163F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
